@@ -28,8 +28,8 @@ Given a plain-text instruction file (like `instructions.txt`), the system will:
 🚀 Getting Started
 1. Clone the repository
 ```
-git clone https://github.com/your-username/agentsmith.git
-cd agentsmith
+git clone https://github.com/nikhillingadhal1999/multi-agent-workflow.git
+cd multi-agent-workflow
 ```
 2. Run with Make
 
