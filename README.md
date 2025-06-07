@@ -34,6 +34,7 @@ cd multi-agent-workflow
 2. Run with Make
 
 ```
+make setup
 make run
 ```
 
