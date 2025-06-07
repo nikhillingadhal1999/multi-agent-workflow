@@ -1,0 +1,21 @@
+2025-06-07 10:01:23,456 INFO [startup] - Application started successfully.
+2025-06-07 10:01:25,102 WARNING [config_loader] - Config file not found, using defaults.
+2025-06-07 10:01:30,239 INFO [db] - Connected to PostgreSQL database at localhost:5432
+2025-06-07 10:01:32,815 ERROR [db] - Failed to execute query: SELECT * FROM users;
+Traceback (most recent call last):
+  File "/app/database.py", line 42, in fetch_users
+    cursor.execute("SELECT * FROM users")
+psycopg2.OperationalError: relation "users" does not exist
+
+2025-06-07 10:01:34,009 INFO [scheduler] - Next task scheduled in 5 minutes
+2025-06-07 10:01:36,300 ERROR [auth] - Authentication failed for user admin
+Traceback (most recent call last):
+  File "/app/auth.py", line 27, in authenticate
+    raise ValueError("Invalid password")
+ValueError: Invalid password
+
+2025-06-07 10:01:40,124 INFO [cleanup] - Temporary files cleaned up.
+2025-06-07 10:01:45,311 WARNING [memory] - Memory usage at 85%, consider optimizing.
+2025-06-07 10:05:32 INFO Starting service...
+2025-06-07 10:05:33 ERROR Connection timedout while connecting to database.
+2025-06-07 10:05:34 INFO Retrying connection...
