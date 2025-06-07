@@ -3,7 +3,6 @@ from langgraph.graph import StateGraph, END
 from langchain.schema import HumanMessage
 from typing import TypedDict, List, Optional
 
-
 print("=== Define state schema ===")
 class AgentState(TypedDict):
     logs: Optional[str]
