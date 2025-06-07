@@ -33,7 +33,9 @@ cd agentsmith
 ```
 2. Run with Make
 
-```make run```
+```
+make run
+```
 
 This will:
 
